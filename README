@@ -1,0 +1,5 @@
+This is a simple chess engine written to conform to xboard protocol.
+
+The python-chess library is required, available at 
+https://pypi.python.org/pypi/python-chess and by executing:
+pip install python-chess

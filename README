@@ -1,5 +1,15 @@
 This is a simple chess engine written to conform to xboard protocol.
 
+To play against it using xboard:
+
+xboard -fcp 'python3 randy.py'
+
+
+To have it play against another chess engine, such as phalanx
+
+xboard -fcp 'python3 randy.py' -scp phalanx -mg 2
+
+
 The python-chess library is required, available at 
 https://pypi.python.org/pypi/python-chess and by executing:
 pip install python-chess
